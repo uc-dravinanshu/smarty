@@ -10,6 +10,8 @@
   $smarty->assign('Last_Name', 'Mishra');
   $smarty->assign('Meeting_Place', 'Prayagaraj');
 
+  
+
 //display it.
 
 $smarty->display('template.tpl');
