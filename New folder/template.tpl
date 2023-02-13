@@ -1,0 +1,45 @@
+<p>
+    {$sometext|capitalize:true}
+</p>
+<p>
+    {$sometext|cat:' and you can learn this end of the time'}
+</p>
+<p>
+    {$sometext|count_characters}
+</p>
+<p>
+    {$sometext|count_paragraphs}
+</p>
+<p>
+    {$sometext|count_words}
+</p>
+<p>
+    {$sometext|count_paragraphs}
+</p>
+<p>
+    {$sometext|count_sentences}
+</p>
+<p>
+    {$smarty.now|date_format}
+</p>
+<p>
+    {$smarty.now|date_format:$config.date}
+</p>
+<p>
+    {$smarty.now|date_format:$config.time}
+</p>
+<p>
+    {$title|default:'no title'}
+</p>
+<p>
+    {$articale|escape:'html'}
+</p>
+<p>
+    {$articale|indent:100}
+</p>
+<p>
+    {$articale|lower}
+</p>
+<p>
+    {$articale|upper}  
+</p>
